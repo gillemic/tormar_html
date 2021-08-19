@@ -17,14 +17,16 @@ ul {
   justify-content: center;
   list-style-type: none;
   margin: 1em auto;
+  width: auto;
+  padding-left: 0px;
 }
 
 li {
-  margin: 0 1em;
+  margin: 1rem;
 }
 
 a {
-  font-size: 1.25rem;
+  font-size: 1rem auto;
   font-weight: bold;
 }
 
@@ -52,7 +54,7 @@ form {
 .header p {
   color: black;
   margin: 0 auto;
-  padding: 0px auto;
+  padding: auto;
 }
 
 .main-page {
@@ -63,6 +65,7 @@ form {
   padding: 0.5em 1em;
   margin: 2em 0;
   border: solid 1px black;
+  text-size-adjust: auto;
 }
 
 .main-page h1 {
@@ -78,10 +81,10 @@ form {
 }
 
 .home p {
-  font-size: 1.75rem;
+  font-size: 1.75rem auto;
   flex: 1;
   padding: 1rem;
-  min-width: fit-content;
+  /*min-width: fit-content;*/
 }
 
 .home img {
