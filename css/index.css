@@ -40,6 +40,7 @@ form {
   border: 1px black solid;
   text-align: center;
   background-color: #fffdfdab;
+  width: auto;
 }
 
 .header h1 {
@@ -56,6 +57,7 @@ form {
 
 .main-page {
   height: 100%;
+  width: auto;
   font-size: 20px;
   background-color: #fffdfdab;
   padding: 0.5em 1em;
