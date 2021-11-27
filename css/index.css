@@ -82,7 +82,7 @@ form {
   margin-bottom: 1em;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: initial;
 }
 
 .home p {
