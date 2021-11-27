@@ -2,7 +2,6 @@ body {
   background-image: url('/img/pic50.jpg');
   background-size: auto;
   height: 100%;
-  /*min-width: 600px;*/
   max-width: 1000px;
   width: auto;
   display: flex;
@@ -16,17 +15,18 @@ ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  margin: 1em auto;
+  margin: 0.5rem;
   width: auto;
   padding-left: 0px;
 }
 
 li {
-  margin: 1rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
 }
 
 a {
-  font-size: 1rem auto;
+  font-size: 2rem auto;
   font-weight: bold;
 }
 
@@ -57,14 +57,20 @@ form {
   padding: auto;
 }
 
+.header a {
+  padding: 0;
+  margin: 0.5rem;
+}
+
 .main-page {
   height: 100%;
   width: auto;
-  font-size: 20px;
+  font-size: 1.6rem;
   background-color: #fffdfdab;
   padding: 0.5em 1em;
   margin: 2em 0;
   border: solid 1px black;
+  line-height: 1.5;
 }
 
 .main-page h1 {
